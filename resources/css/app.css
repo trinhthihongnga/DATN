@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.btn {
+    -moz-user-select: none !important;
+    -webkit-touch-callout: none!important;
+    -webkit-user-select: none!important;
+    -khtml-user-select: none!important;
+    -moz-user-select: none!important;
+    -ms-user-select: none!important;
+    user-select: none!important;
+}
+.box-shadow {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+    -moz-user-select: none !important;
+    -webkit-touch-callout: none!important;
+    -webkit-user-select: none!important;
+    -khtml-user-select: none!important;
+    -moz-user-select: none!important;
+    -ms-user-select: none!important;
+    user-select: none!important;
+}
+
+.box-shadow-bottom {
+    box-shadow: 10px 4px 10px 10px rgba(0, 0, 0, 0.15);
+    -moz-user-select: none !important;
+    -webkit-touch-callout: none!important;
+    -webkit-user-select: none!important;
+    -khtml-user-select: none!important;
+    -moz-user-select: none!important;
+    -ms-user-select: none!important;
+    user-select: none!important;
+}
+
+[type='text']:focus{
+    --tw-ring-color: none
+}
+[type='password']:focus{
+    --tw-ring-color: none
+}
+[type='number']:focus{
+    --tw-ring-color: none
+}
+#edit-post .el-dialog__header {
+    z-index: 100;
+}
+.el-tooltip__trigger {
+    outline: none;
+    border: none;
+}
+figure.image {
+    margin: 12px 0 8px 0;
+}
+figcaption {
+    margin-top: 4px;
+    text-align: center;
+    font-size: 14px;
+}
